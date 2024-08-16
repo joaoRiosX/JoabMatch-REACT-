@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#boxLoad {
+    background-color: #130633;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+ }
+ .load{
+    width: 100px;height: 100px;
+    background-image: url(../../../assets/loading.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    animation: rotation 2s infinite linear; 
+ }
+ @keyframes rotation{
+    to{transform: rotate(360deg);}
+ }
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%!important;
+    background-color: #F9F9F9;
+}
+.firstCollum{
+    width: 100%;
+    margin-top: 75px;
+}
+.secondCollum{
+    width: 100%;
+    margin-bottom: 78   px;
+
+}
+.content {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #DADADA;
+    width: 1080px;
+    height: 906px;
+    position: relative;
+}
+.cadastro{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.tittle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 57px;
+    margin-bottom: 14px;
+
+}
+.labelTop {
+    padding-left: 7px;
+    font-size: 13px;
+}
+h2 {
+    text-align: center;
+    color: #4A3B8B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

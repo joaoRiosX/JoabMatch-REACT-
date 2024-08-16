@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    min-width: 100%;
+}
+.label-input {
+    width: 816px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-height: 30px;
+}
+.bi{
+    font-size: 12px;
+    position: absolute;
+    left: 1%;
+    cursor: pointer;
+
+}
+
+.buttons-form{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.banner-top{
+    background-color: #351AA0;
+    width: 100%;height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.banner-top img{
+    width: 627px;height: 217px;
+}
+.label{
+    color: #743DFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;height: 150px;
+}
+.label h2{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gallery {
+	padding: 1rem;
+	display: flex;
+    gap: 32px;
+	overflow: scroll;
+	height: 280px;
+    overflow-y: hidden;
+    
+}
+
+.active {
+	scroll-snap-type: unset;
+}
+
+li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+    width: 368px;
+    min-width: 368px;
+    cursor: pointer;
+}
+.carrosel-img1{
+    background-image: url(./assets/img1.svg) ;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+.carrosel-img2{
+    background-image: url(./assets/img3.svg) ;
+}
+.carrosel-img3{
+    background-image: url(./assets/img4.svg) ;
+}
+.carrosel-img4{
+    background-image: url(./assets/img5.svg) ;
+}
+.carrosel-img5{
+    background-image: url(./assets/img6.svg) ;
+}
+.div-empresas{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 8px 10px;
+}

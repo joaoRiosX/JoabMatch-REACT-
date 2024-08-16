@@ -1,0 +1,16 @@
+input {
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    height: 45px;
+    min-height: 45px;
+
+    border: none;
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.inputFix:-webkit-autofill 
+{    
+    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
